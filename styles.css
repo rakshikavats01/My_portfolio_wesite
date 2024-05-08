@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(9, 9, 52);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 78px;
+    background-color: rgb(22, 22, 84);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(119, 98, 201);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.6rem;
+    ;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.rightsection {
+    font-size: 2rem;
+    margin: 40px 0;
+}
+
+.leftsection img {
+    width: 70%;
+    margin: 40px 0;
+    border-radius: 50%;
+}
+
+.purple {
+    color: rgb(119, 98, 201);
+}
+
+#element {
+    color: rgb(119, 98, 201);
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+main hr {
+    border: 0;
+    height: 1px;
+    background-color: rgb(50, 50, 174);
+    margin: 30px 80px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.horizontal-line {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 80px 0px;
+    display:flex;
+}
+.vertical-line{
+    height:50px;
+    width:2px;
+    background-color: white;
+    margin:0 150px;
+}
+.img-top1{
+    width: 70px;
+    position:relative;
+    top: -70px;
+    left:-1.4px;
+
+}
+.img-top2{
+    width: 70px;
+    height:70px;
+    position:relative;
+    top:-69px;
+    left:-2px;
+
+}
+.img-top3{
+    width: 70px;
+    position:relative;
+    top:-69px;
+    left:-2px;
+
+}
+ .vertical-title{
+    position:relative;
+    top:10px;
+    width:150px;
+}
+.vertical-desc{
+    position: relative;
+    top:30px;
+    color:gray;
+    width:150px;
+    font-size:9px;
+} 
+footer{
+    background-color: rgb(47, 47, 154); 
+    height:50px;
+    color:white;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgb(119, 98, 201);
+    font-size: 1.1rem;
+}
